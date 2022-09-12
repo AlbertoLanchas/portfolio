@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { HiMenuAlt4, HiX } from "react-icons/hi";
-import { motion } from "framer-motion";
+import { filterProps, motion } from "framer-motion";
 import { images } from "../../constants";
 
 import "./NavBar.scss";
@@ -14,7 +14,7 @@ const NavBar = () => {
       </div>
       <ul className="app__navbar-links">
         {["home", "skills", "work", "goals", "contact"].map((item) => (
-          <li className="app__flex p-text" key={`link-${item}`}>
+          <li className="app__flex li-text" key={`link-${item}`}>
             <div />
             <a href={`#${item}`}>{item}</a>
           </li>

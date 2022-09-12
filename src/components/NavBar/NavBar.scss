@@ -33,7 +33,7 @@
   list-style: none;
 
   li {
-    margin: 0 1rem;
+    margin: 0 2rem;
     cursor: pointer;
     flex-direction: column;
 
@@ -46,11 +46,11 @@
     }
 
     a {
-      color: var(--gray-color);
+      color: rgba(0, 0, 0, 0.8);
       text-decoration: none;
       flex-direction: column;
       text-transform: uppercase;
-      font-weight: 500;
+      font-weight: bold;
       transition: all 0.3s ease-in-out;
 
       &:hover {

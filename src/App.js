@@ -9,9 +9,9 @@ const App = () => {
       <NavBar></NavBar>
       <Header></Header>
       <Skills></Skills>
-      <Work></Work>
+      {/* <Work></Work>
       <Goals></Goals>
-      <Footer></Footer>
+      <Footer></Footer> */}
     </div>
   );
 };
