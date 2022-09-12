@@ -42,10 +42,50 @@ export const tech = [
   },
 ];
 
-export const work = [
-  { name: "Charts", tag: ["All", "React JS"], logo: "", id: "1" },
-  { name: "Rick & Morty API", tag: ["All", "React JS"], logo: "", id: "2" },
-  { name: "Disney+ Clone", tag: ["All", "React JS"], logo: "", id: "3" },
-  { name: "Javascript 30", tag: ["All", "Javascript"], logo: "", id: "4" },
-  { name: "Tetris Game", tag: ["All", "React JS"], logo: "", id: "5" },
+export const projects = [
+  {
+    name: "chart",
+    text: "Charts",
+    tags: ["All", "React JS"],
+    web: "",
+    code: "",
+    id: "1",
+    description: "",
+  },
+  {
+    name: "rick",
+    text: "Rick & Morty API",
+    tags: ["All", "React JS"],
+    web: "",
+    code: "",
+    id: "2",
+    description: "",
+  },
+  {
+    name: "disney+",
+    text: "Disney+ Clone",
+    tags: ["All", "React JS"],
+    web: "",
+    code: "",
+    id: "3",
+    description: "",
+  },
+  {
+    name: "javascript30",
+    text: "Javascript 30",
+    tags: ["All", "Javascript"],
+    web: "",
+    code: "",
+    id: "4",
+    description: "",
+  },
+  {
+    name: "tetris",
+    text: "Tetris Game",
+    tags: ["All", "React JS"],
+    web: "",
+    link: "",
+    id: "5",
+    description: "",
+  },
 ];

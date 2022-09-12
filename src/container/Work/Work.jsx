@@ -3,7 +3,7 @@ import { AiFillEye, AiFillGithub } from "react-icons/ai";
 import { motion } from "framer-motion";
 import { AppWrap, MotionWrap } from "../../wrapper";
 import "./Work.scss";
-
+import { projects } from "../../data";
 const Work = () => {
   const [activeFilter, setActiveFilter] = useState("All");
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
@@ -13,13 +13,12 @@ const Work = () => {
   const handleWorkFilter = (item) => {
     setActiveFilter(item);
     setAnimateCard([{ y: 100, opacity: 0 }]);
-
     setTimeout(() => {
       setAnimateCard([{ y: 0, opacity: 1 }]);
       if (item === "All") {
         setFilterWork(works);
       } else {
-        setFilterWork(works.filter((work) => work.tags.includes(item)));
+        setFilterWork(projects.filter((work) => work.tags.includes(item)));
       }
     }, 500);
   };
@@ -30,7 +29,7 @@ const Work = () => {
       </h2>
 
       <div className="app__work-filter">
-        {["Web App", "Javascript", "React JS", "All"].map((item, index) => (
+        {["All", "Javascript", "React JS"].map((item, index) => (
           <div
             key={index}
             onClick={() => handleWorkFilter(item)}
@@ -42,7 +41,7 @@ const Work = () => {
           </div>
         ))}
       </div>
-
+      {console.log(projects)}
       <motion.div
         animate={animateCard}
         transition={{ duration: 0.5, delayChildren: 0.5 }}
@@ -51,7 +50,7 @@ const Work = () => {
         {filterWork.map((work, index) => (
           <div className="app__work-item app__flex" key={index}>
             <div className="app__work-img app__flex">
-              <img src={urlFor(work.imgUrl)} alt={work.name} />
+              {/* <img src={urlFor(work.imgUrl)} alt={work.name} /> */}
 
               <motion.div
                 whileHover={{ opacity: [0, 1] }}

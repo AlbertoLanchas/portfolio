@@ -2,6 +2,7 @@ import React from "react";
 import { Footer, Header, Skills, Goals, Work } from "./container";
 import { NavBar } from "./components";
 import "./App.scss";
+import Projects from "./container/Work/Projects";
 
 const App = () => {
   return (
@@ -9,9 +10,10 @@ const App = () => {
       <NavBar></NavBar>
       <Header></Header>
       <Skills></Skills>
-      {/* <Work></Work>
-      <Goals></Goals>
-      <Footer></Footer> */}
+      {/* <Work></Work> */}
+      <Projects></Projects>
+      {/* <Goals></Goals> */}
+      {/* <Footer></Footer> */}
     </div>
   );
 };

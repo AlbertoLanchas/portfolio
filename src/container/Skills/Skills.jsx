@@ -6,19 +6,10 @@ import { AppWrap, MotionWrap } from "../../wrapper";
 import "./Skills.scss";
 import images from "../../constants/images";
 
-import html from "../../assets/html.png";
-
 const Skills = () => {
   return (
     <>
       <h2 className="head-text">Tech Stack </h2>
-      {/* {tech.map(({ name, logo, id }) => (
-        <div key={id}>
-          <img src={require(`../../assets/${name}.png`)} alt={name} />
-          <p>{name}</p>
-        </div>
-      ))} */}
-
       <div className="app__skills-container">
         <motion.div className="app__skills-list">
           {tech.map(({ name, logo, id, text }) => (
