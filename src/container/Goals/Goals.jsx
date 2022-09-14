@@ -25,7 +25,7 @@ const Goal = () => {
   return (
     <>
       <h2 className="head-text">
-        New languages<span>to learn</span> in the future
+        New languages <span>to learn</span> in the future
       </h2>
       <div className="app__goal-item app__flex">
         <Slider images={images} autoPlay={false} showButtons={true} />

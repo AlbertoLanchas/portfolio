@@ -4,11 +4,14 @@
 }
 
 .app__whitebg {
-  background-color: var(--white-color);
+  background-image: url("./assets/white.png");
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .app__primarybg {
-  background-image: url("./assets/back.gif");
+  background-image: url("./assets/background.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-repeat: no-repeat;
@@ -124,7 +127,7 @@
     svg {
       width: 25px;
       height: 25px;
-      color: var(--gray-color);
+      color: var(--black-color);
     }
 
     &:hover {
