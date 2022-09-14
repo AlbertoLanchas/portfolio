@@ -1,25 +1,13 @@
-.btn_prev {
-  display: flex;
-  align-content: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  box-shadow: 2px 2px 2px #888888;
-  margin: 0px 40px;
-  &:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-  }
-}
-
+.btn_prev,
 .btn_next {
   display: flex;
   align-content: center;
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 2px 2px 2px #888888;
   margin: 0px 40px;
+  cursor: pointer;
   &:hover {
     background-color: rgba(0, 0, 0, 0.1);
   }
