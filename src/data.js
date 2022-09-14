@@ -89,3 +89,21 @@ export const projects = [
     description: "",
   },
 ];
+
+export const objetives = [
+  { name: "node", url: "node.png", text: "Node JS", description: "", id: "1" },
+  {
+    name: "solidity",
+    url: "solidity.png",
+    text: "Solidity",
+    description: "",
+    id: "2",
+  },
+  {
+    name: "nextjs",
+    url: "nextjs.png",
+    text: "Next JS",
+    description: "",
+    id: "3",
+  },
+];

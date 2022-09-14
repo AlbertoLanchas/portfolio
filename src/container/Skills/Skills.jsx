@@ -6,6 +6,7 @@ import { AppWrap, MotionWrap } from "../../wrapper";
 import "./Skills.scss";
 import images from "../../constants/images";
 
+
 const Skills = () => {
   return (
     <>

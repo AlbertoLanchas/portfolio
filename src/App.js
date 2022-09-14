@@ -1,8 +1,9 @@
 import React from "react";
-import { Footer, Header, Skills, Goals, Work } from "./container";
+import { Footer, Header, Skills, Goals, Work, Slider } from "./container";
 import { NavBar } from "./components";
 import "./App.scss";
 import Projects from "./container/Work/Projects";
+import { objetives } from "./data";
 
 const App = () => {
   return (
@@ -12,7 +13,8 @@ const App = () => {
       <Skills></Skills>
       {/* <Work></Work> */}
       <Projects></Projects>
-      {/* <Goals></Goals> */}
+      <Goals></Goals>
+
       {/* <Footer></Footer> */}
     </div>
   );
