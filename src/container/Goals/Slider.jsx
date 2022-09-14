@@ -44,13 +44,22 @@ export default function Slider(props) {
     selectNewImage(selectedIndex, props.images);
   };
   return (
-    <div className="card">
-      <CarouselImg
-        src={require(`../../assets/${selectedImage}`)}
-        alt="logos"
-        className={loaded ? "loaded image" : "image"}
-        onLoad={() => setLoaded(true)}
-      />
+    <div>
+      <div className="card">
+        <CarouselImg
+          src={require(`../../assets/${selectedImage}`)}
+          alt="logos"
+          className={loaded ? "loaded image" : "image"}
+          onLoad={() => setLoaded(true)}
+        />
+        <div className="card__details">
+          <p className="card__title">{objetives[selectedIndex].text}</p>
+          <p className="card__description">
+            {objetives[selectedIndex].description}
+          </p>
+        </div>
+      </div>
+
       {props.showButtons ? (
         <div className="app__goal-btns app__flex">
           <HiChevronLeft onClick={previous} className="btn_prev" />

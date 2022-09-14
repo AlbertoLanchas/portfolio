@@ -91,19 +91,28 @@ export const projects = [
 ];
 
 export const objetives = [
-  { name: "node", url: "node.png", text: "Node JS", description: "", id: "1" },
+  {
+    name: "node",
+    url: "node.png",
+    text: "Node JS",
+    description:
+      '"Node.js is a lean, fast, cross-platform JavaScript runtime environment that is useful for both servers and desktop applications."',
+    id: "1",
+  },
   {
     name: "solidity",
     url: "solidity.png",
     text: "Solidity",
-    description: "",
+    description:
+      "Solidity is an object-oriented programming language for writing smart contracts on blockchains like, most famously, Ethereum. With Solidity you can create contracts for uses such as voting, crowdfunding, blind auctions, and multi-signature wallets.",
     id: "2",
   },
   {
     name: "nextjs",
     url: "nextjs.png",
     text: "Next JS",
-    description: "",
+    description:
+      "Next.js is a javascript framework built with react js, webpack, and babel. Next.js helps developers quickly create static generation and server-side rendering websites.",
     id: "3",
   },
 ];
