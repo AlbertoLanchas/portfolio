@@ -155,29 +155,42 @@
   }
 }
 
-.modal {
-  position: fixed;
-  z-index: 999;
+.backdrop {
+  position: absolute;
   top: 0;
+  left: 0;
   right: 0;
   bottom: 0;
-  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  width: clamp(50%, 700px, 90%);
+  height: min(50%, 300px);
+
+  margin: auto;
+  padding: 0 2rem;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.orange-gradient {
+  background-color: orange;
+}
+
+.front {
+  background-color: red;
+  width: 200px;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.2);
-  opacity: 0;
-  pointer-events: none;
-  transition: all 1s;
-}
-
-.modal-close svg {
-  width: 3rem;
-  height: 3rem;
-  fill: var(--first-color);
-}
-
-.modal[id|="project"]:target {
-  opacity: 1;
-  pointer-events: auto;
+  text-align: center;
 }
