@@ -8,6 +8,7 @@ import "./Work.scss";
 
 //IMPORTS POST COPIA
 import { projects } from "../../data";
+import { objetives } from "../../data";
 import { BsSearch } from "react-icons/bs";
 
 const Work = () => {
@@ -50,31 +51,38 @@ const Work = () => {
       <div className="front">
         <motion.button
           whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
+          whileTap={{ scale: 0.95 }}
           className="save-button"
           onClick={() => (modalOpen ? close() : open())}
           style={{ cursor: "pointer" }}
         >
-          <div>
-            <p> Epa este es un poco de texto </p>
+          <div className="app__work-item app__flex" key={projects[0].id}>
+            <div className="app__work-img app__flex">
+              <img
+                src={require(`../../assets/${objetives[0].url}`)}
+                alt={projects[0].name}
+              />
+            </div>
+            <div className="app__work-content app__flex">
+              <h4 className="bold-text">{projects[0].text} </h4>
+              <br />
+              <BsSearch />
+              <div className="app__work-tag app__flex">
+                <p className="p-text">{projects[0].tags}</p>
+              </div>
+            </div>
           </div>
         </motion.button>
         <AnimatePresence
-          // Disable any initial animations on children that
-          // are present when the component is first rendered
           initial={false}
-          // Only render one component at a time.
-          // The exiting component will finish its exit
-          // animation before entering component is rendered
           exitBeforeEnter={true}
-          // Fires when all exiting nodes have completed animating out
           onExitComplete={() => null}
         >
           {modalOpen && <WorkModal modalOpen={modalOpen} handleClose={close} />}
         </AnimatePresence>
       </div>
-      {/* 
-      <div className="app__work-filter">
+
+      {/* <div className="app__work-filter">
         {["All", "React JS", "Javascript"].map((item, index) => (
           <div
             key={index}
@@ -86,39 +94,35 @@ const Work = () => {
             {item}
           </div>
         ))}
-      </div>
+      </div> */}
 
-      <motion.div
+      {/* <motion.div
         animate={animateCard}
         transition={{ duration: 0.5, delayChildren: 0.5 }}
         className="app__work-portfolio"
       >
-        <WorkModal isOpen={isOpenModal} closeModal={closeModal}>
-          {projects.map(({ id, name, tags, text, description }) => (
-            <div className="app__work-item app__flex" key={id}>
-              <div className="app__work-img app__flex">
-                <img src={require(`../../assets/${name}.jpg`)} alt={name} />
-              </div>
-              <div className="app__work-content app__flex">
-                <h4 className="bold-text">{text} </h4>
-                <br />
-                <BsSearch />
-                <div className="app__work-tag app__flex">
-                  <p className="p-text">{tags}</p>
-                </div>
+        {projects.map(({ id, name, tags, text, description }) => (
+          <div className="app__work-item app__flex" key={id}>
+            <div className="app__work-img app__flex">
+              <img src={require(`../../assets/${name}.jpg`)} alt={name} />
+            </div>
+            <div className="app__work-content app__flex">
+              <h4 className="bold-text">{text} </h4>
+              <br />
+              <BsSearch />
+              <div className="app__work-tag app__flex">
+                <p className="p-text">{tags}</p>
               </div>
             </div>
-          ))}
-        </WorkModal>
+          </div>
+        ))}
       </motion.div> */}
     </>
   );
 };
 
-// export default AppWrap(
-//   MotionWrap(Work, "app__works"),
-//   "work",
-//   "app__primarybg"
-// );
-
-export default Work;
+export default AppWrap(
+  MotionWrap(Work, "app__works"),
+  "work",
+  "app__primarybg"
+);

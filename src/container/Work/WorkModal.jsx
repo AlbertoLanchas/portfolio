@@ -3,11 +3,11 @@ import Backdrop from "./BackDrop";
 
 const dropIn = {
   hidden: {
-    y: "200vh",
+    y: "-100vh",
     opacity: 0,
   },
   visible: {
-    y: "190vh",
+    y: "0",
     opacity: 1,
     transition: {
       duration: 0.1,
@@ -17,7 +17,7 @@ const dropIn = {
     },
   },
   exit: {
-    y: "200vh",
+    y: "100vh",
     opacity: 0,
   },
 };
@@ -33,8 +33,10 @@ const WorkModal = ({ handleClose, text }) => {
         animate="visible"
         exit="exit"
       >
-        <p> Entonces aqui puedo editar el modal</p>
-        <button onClick={handleClose}>Close</button>
+        <p> PARTE TRASERA EPA</p>
+        <button className="modal-close" onClick={handleClose}>
+          Close
+        </button>
       </motion.div>
     </Backdrop>
   );

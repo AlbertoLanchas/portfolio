@@ -147,7 +147,6 @@
 
   .app__work-tag {
     position: absolute;
-
     padding: 0.5rem 1rem;
     border-radius: 10px;
     background-color: #fff;
@@ -157,27 +156,22 @@
 
 .backdrop {
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
   height: 100%;
-  width: 100%;
-  background-color: #000000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 94%;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .modal {
-  width: clamp(50%, 700px, 90%);
-  height: min(50%, 300px);
-
+  position: fixed;
+  top: 30vh;
+  left: 30vw;
+  width: 50%;
+  height: 50%;
+  flex-direction: column-reverse;
   margin: auto;
-  padding: 0 2rem;
   border-radius: 12px;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
@@ -186,11 +180,14 @@
 }
 
 .front {
-  background-color: red;
-  width: 200px;
-  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
 }
