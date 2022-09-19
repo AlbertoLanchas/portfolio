@@ -48,7 +48,7 @@ const Work = () => {
       <h2 className="head-text">
         My Creative <span>Portfolio</span> Section
       </h2>
-      <div className="front">
+      {/* <div className="front">
         <motion.button
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
@@ -80,7 +80,7 @@ const Work = () => {
         >
           {modalOpen && <WorkModal modalOpen={modalOpen} handleClose={close} />}
         </AnimatePresence>
-      </div>
+      </div> */}
 
       {/* <div className="app__work-filter">
         {["All", "React JS", "Javascript"].map((item, index) => (
@@ -96,12 +96,12 @@ const Work = () => {
         ))}
       </div> */}
 
-      {/* <motion.div
+      <motion.div
         animate={animateCard}
         transition={{ duration: 0.5, delayChildren: 0.5 }}
         className="app__work-portfolio"
       >
-        {projects.map(({ id, name, tags, text, description }) => (
+        {projects.map(({ id, name, tags, text, description, web, code }) => (
           <div className="app__work-item app__flex" key={id}>
             <div className="app__work-img app__flex">
               <img src={require(`../../assets/${name}.jpg`)} alt={name} />
@@ -109,14 +109,44 @@ const Work = () => {
             <div className="app__work-content app__flex">
               <h4 className="bold-text">{text} </h4>
               <br />
-              <BsSearch />
+              <div className="app__icon">
+                {web !== "" ? (
+                  <>
+                    <a
+                      href={web}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="app__icon"
+                    >
+                      <AiFillEye />
+                    </a>
+                  </>
+                ) : (
+                  <></>
+                )}
+                {code !== "" ? (
+                  <>
+                    <a
+                      href={code}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="app__icon"
+                    >
+                      <AiFillGithub />
+                    </a>
+                  </>
+                ) : (
+                  <></>
+                )}
+              </div>
+
               <div className="app__work-tag app__flex">
                 <p className="p-text">{tags}</p>
               </div>
             </div>
           </div>
         ))}
-      </motion.div> */}
+      </motion.div>
     </>
   );
 };

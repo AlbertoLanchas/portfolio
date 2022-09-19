@@ -28,7 +28,6 @@
     border-radius: 10px;
     cursor: pointer;
     background-color: #ff009534;
-
     transition: all 0.3s ease-in-out;
 
     img {
@@ -69,44 +68,48 @@
 }
 
 .app__footer-form {
-  width: 60%;
+  width: 80%;
   flex-direction: column;
   margin: 1rem 2rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(1000px);
+  -webkit-backdrop-filter: blur(100px);
+  border-radius: 10px;
 
   div {
-    width: 100%;
-
+    width: 90%;
     margin: 0.75rem 0;
     border-radius: 10px;
-    cursor: pointer;
-    background-color: var(--primary-color);
-
+    border: 0.5px solid #000;
     transition: all 0.3s ease-in-out;
 
     input,
     textarea {
       width: 100%;
       padding: 0.95rem;
-      border: none;
+
       border-radius: 7px;
-      background-color: var(--primary-color);
+      background-color: var(--white-color);
 
       font-family: var(--font-base);
-      color: var(--secondary-color);
-      outline: none;
+      color: var(--black-color);
     }
 
     textarea {
       height: 170px;
+      outline: none;
+      resize: none;
+      border: none;
     }
 
     &:hover {
-      box-shadow: 0 0 25px var(--primary-color);
+      box-shadow: 0 0 5px var(--black-color);
     }
   }
 
   button {
     padding: 1rem 2rem;
+
     border-radius: 10px;
     border: none;
     background-color: var(--secondary-color);
@@ -114,7 +117,7 @@
     font-weight: 500;
     color: var(--white-color);
     outline: none;
-    margin: 2rem 0 0 0;
+    margin: 2rem 0;
     font-family: var(--font-base);
 
     transition: cubic-bezier(0.55, 0.085, 0.68, 0.53);

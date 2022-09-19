@@ -191,3 +191,10 @@
   top: 1rem;
   right: 1rem;
 }
+
+.app__icon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 50px;
+}
