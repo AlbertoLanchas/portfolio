@@ -39,9 +39,9 @@ const Header = () => (
       </div>
       <a
         className="app__cv app__flex"
-        href="../../assets/cv.pdf"
+        href={images.cv}
         target="_blank"
-        download
+        download="CV_ALBERTO-LANCHAS"
       >
         <BsDownload />
         <p className="cv__text">Download my CV</p>
