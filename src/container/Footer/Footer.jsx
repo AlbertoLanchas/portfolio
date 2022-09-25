@@ -123,7 +123,7 @@ const Footer = () => {
             name="comments"
             cols="30"
             rows="10"
-            placeholder="Your comments"
+            placeholder="Give me your feedback! :)"
             className="p-text"
             onBlur={handleBlur}
             onChange={handleChange}

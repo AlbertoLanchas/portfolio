@@ -57,6 +57,10 @@ export default function Slider(props) {
           <p className="card__description">
             {objetives[selectedIndex].description}
           </p>
+          <br></br>
+          <p className="card__description">
+            {objetives[selectedIndex].details}
+          </p>
         </div>
       </div>
 

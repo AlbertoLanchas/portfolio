@@ -96,8 +96,18 @@ export const objetives = [
     url: "node.png",
     text: "Node JS",
     description:
-      '"Node.js is a lean, fast, cross-platform JavaScript runtime environment that is useful for both servers and desktop applications."',
+      "Node.js is a lean, fast, cross-platform JavaScript runtime environment that is useful for both servers and desktop applications.",
+    details:
+      "In addition to my experience as a frontend developer, I believe that Node JS will provide me with a thorough understanding of how an entire development team operates",
     id: "1",
+  },
+  {
+    name: "databases",
+    url: "sql.png",
+    text: "SQL Databases",
+    description:
+      "In the same way as Node JS with databases I can provides a full stack vision to understand how storage the data and how is the best efficient way to access it.",
+    id: "2",
   },
   {
     name: "solidity",
@@ -105,7 +115,7 @@ export const objetives = [
     text: "Solidity",
     description:
       "Solidity is an object-oriented programming language for writing smart contracts on blockchains like, most famously, Ethereum. With Solidity you can create contracts for uses such as voting, crowdfunding, blind auctions, and multi-signature wallets.",
-    id: "2",
+    id: "3",
   },
   {
     name: "nextjs",
@@ -113,6 +123,6 @@ export const objetives = [
     text: "Next JS",
     description:
       "Next.js is a javascript framework built with react js, webpack, and babel. Next.js helps developers quickly create static generation and server-side rendering websites.",
-    id: "3",
+    id: "4",
   },
 ];
