@@ -58,9 +58,7 @@ export default function Slider(props) {
             {objetives[selectedIndex].description}
           </p>
           <br></br>
-          <p className="card__description">
-            {objetives[selectedIndex].details}
-          </p>
+          <p className="card__details">{objetives[selectedIndex].details}</p>
         </div>
       </div>
 
@@ -77,7 +75,8 @@ export default function Slider(props) {
 }
 
 const CarouselImg = styled.img`
-  max-width: 200px;
+  max-width: 150px;
+  max-height: 150px;
   opacity: 0;
   transition: 1s;
   &.loaded {

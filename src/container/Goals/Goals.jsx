@@ -10,7 +10,12 @@ const Goal = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [goals, setGoals] = useState([]);
   const [brands, setBrands] = useState([]);
-  const images = [objetives[0].url, objetives[1].url, objetives[2].url];
+  const images = [
+    objetives[0].url,
+    objetives[1].url,
+    objetives[2].url,
+    objetives[3].url,
+  ];
 
   const handleClick = (index) => {
     setCurrentIndex(index);

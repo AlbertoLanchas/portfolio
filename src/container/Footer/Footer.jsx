@@ -109,7 +109,7 @@ const Footer = () => {
           <input
             type="text"
             name="subject"
-            placeholder="Mail subject"
+            placeholder="Main subject"
             className="p-text"
             onBlur={handleBlur}
             onChange={handleChange}

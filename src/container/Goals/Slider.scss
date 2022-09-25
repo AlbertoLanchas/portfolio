@@ -23,11 +23,19 @@
   font-size: large;
   margin-bottom: 20px;
 }
+
+.card__details {
+  text-align: justify;
+  padding-right: 30px;
+  color: black;
+  font-size: 20px;
+}
 .card__description {
   text-align: justify;
   padding-right: 30px;
+  color: rgb(131, 131, 131);
+  font-size: 17px;
 }
-
 .image {
   width: 40px;
   height: 40px;
