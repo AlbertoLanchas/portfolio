@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
-import { motion } from "framer-motion";
 import { objetives } from "../../data";
 import { AppWrap, MotionWrap } from "../../wrapper";
 import Slider from "./Slider";
@@ -24,7 +22,6 @@ const Goal = () => {
   useEffect(() => {
     setGoals(objetives);
     setBrands(objetives);
-    console.log(objetives[0].url);
   }, []);
 
   return (
