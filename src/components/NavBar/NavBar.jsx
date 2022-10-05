@@ -10,7 +10,7 @@ const NavBar = () => {
   const [show, setShow] = useState(true);
 
   const controlNavBar = () => {
-    window.screenY > 100 ? setShow(false) : setShow(true);
+    window.scrollY > 950 ? setShow(false) : setShow(true);
   };
   useEffect(() => {
     window.addEventListener("scroll", controlNavBar);
@@ -19,7 +19,7 @@ const NavBar = () => {
     };
   }, []);
   return (
-    <nav className={` ${show && "app__navbar"}`}>
+    <nav className={show ? "app__navbar" : "app__navbar active"}>
       <div className="app__navbar-logo">
         <img src={images.logo} alt="logo" />
       </div>
