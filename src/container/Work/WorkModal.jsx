@@ -1,44 +1,17 @@
-import { motion } from "framer-motion";
-import Backdrop from "./BackDrop";
+import React from "react";
+import "./WorkModal.css";
 
-const dropIn = {
-  hidden: {
-    y: "-100vh",
-    opacity: 0,
-  },
-  visible: {
-    y: "0",
-    opacity: 1,
-    transition: {
-      duration: 0.1,
-      type: "spring",
-      damping: 25,
-      stiffness: 500,
-    },
-  },
-  exit: {
-    y: "100vh",
-    opacity: 0,
-  },
-};
-
-const WorkModal = ({ handleClose, text }) => {
+const WorkModal = ({ children, isOpen, closeModal }) => {
+  const handleModalClick = (e) => e.stopPropagation();
   return (
-    <Backdrop onClick={handleClose}>
-      <motion.div
-        onClick={(e) => e.stopPropagation()}
-        className="modal orange-gradient"
-        variants={dropIn}
-        initial="hidden"
-        animate="visible"
-        exit="exit"
-      >
-        <p> PARTE TRASERA EPA</p>
-        <button className="modal-close" onClick={handleClose}>
-          Close
+    <article className={`modal ${isOpen && "is-open"}`} onClick={closeModal}>
+      <div className="modal-container" onClick={handleModalClick}>
+        <button className="modal-close" onClick={closeModal}>
+          X
         </button>
-      </motion.div>
-    </Backdrop>
+        {children}
+      </div>
+    </article>
   );
 };
 
