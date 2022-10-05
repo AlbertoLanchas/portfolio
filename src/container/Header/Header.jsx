@@ -37,6 +37,7 @@ const Header = () => (
           <p className="p-text">Frontend Developer</p>
         </div>
       </div>
+
       <a
         className="app__cv app__flex"
         href={images.cv}

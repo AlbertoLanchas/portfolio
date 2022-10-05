@@ -33,6 +33,7 @@ import skype from "../assets/skype.png";
 import spotify from "../assets/spotify.png";
 import cv from "../assets/Cv-AlbertoLanchas.pdf";
 import sql from "../assets/sql.png";
+import alberto from "../assets/alberto1.png";
 
 export default {
   email,
@@ -70,4 +71,5 @@ export default {
   spotify,
   cv,
   sql,
+  alberto,
 };
