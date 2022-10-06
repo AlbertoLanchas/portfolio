@@ -82,7 +82,14 @@ export const projects = [
     web: "https://to-do-list-alberto.web.app/",
     code: "https://github.com/AlbertoLanchas/to_do_list",
     id: "3",
-    description: "",
+    description:
+      "Learned Typescript from scratch and used it with React hooks such as useState, useRef and useReducer. Understood PropTypes, DefaultProps building a todo list app project. ",
+    details: [
+      "Setup React Typescript Project.",
+      "Generics interfaces and functions in Typescript.",
+      "Functional Component type.",
+    ],
+    logo: ["react", "typescript"],
   },
   {
     name: "tetris",
@@ -91,7 +98,14 @@ export const projects = [
     web: "https://tetris-clon.web.app/",
     code: "https://github.com/AlbertoLanchas/tetris",
     id: "4",
-    description: "",
+    description:
+      "It's an API REST App base on the television show Rick & Morty. Includes React pagination to display the data, filters to clarify the characters, and React Router Dom to navigate into different specific details of each character.",
+    details: [
+      "Make beautiful components with Bootstrap.",
+      "Data fetching from API REST & Pagination.",
+      "Filter data from a real-time database.",
+    ],
+    logo: ["react"],
   },
   {
     name: "disney+",
@@ -100,7 +114,14 @@ export const projects = [
     web: "",
     code: "https://github.com/AlbertoLanchas/disney-clone",
     id: "5",
-    description: "",
+    description:
+      "It's a Disney+ Clone App created with React JS and has Google Authentication to provide protected routes. The data is from Cloud Storage using Firebase to store and serve user-generated content, such as photos or videos.",
+    details: [
+      "Handle authentication with Firebase.",
+      "Data fetching from API REST & Pagination.",
+      "Filter data from a real-time database.",
+    ],
+    logo: ["react", "redux", "firebase", "styled"],
   },
   {
     name: "javascript30",
@@ -109,7 +130,14 @@ export const projects = [
     web: "",
     code: "https://github.com/AlbertoLanchas/JavaScript-30",
     id: "6",
-    description: "",
+    description:
+      "It's an API REST App base on the television show Rick & Morty. Includes React pagination to display the data, filters to clarify the characters, and React Router Dom to navigate into different specific details of each character.",
+    details: [
+      "Make beautiful components with Bootstrap.",
+      "Data fetching from API REST & Pagination.",
+      "Filter data from a real-time database.",
+    ],
+    logo: ["react", "bootstrap", "router"],
   },
 ];
 
