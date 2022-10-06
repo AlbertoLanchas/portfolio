@@ -33,13 +33,13 @@ const Skills = () => {
           <div className="app__skills-exp">
             <p className="text_skills">
               I finished my degree in Food Science Technology, although I've
-              founded my passion in software engineering, especially as a
-              front-end developer. I am a highly motivated developer seeking to
-              launch a carrer building web applications and services.
+              founded my passion in software engineering, especially as a{" "}
+              <b>Frontend Developer</b>. I am a highly motivated developer
+              seeking to launch a carrer building web applications and services.
             </p>
             <p className="text_skills">
               One of my hobbies is based on exploring the possibilities of{" "}
-              <b>Blockchain technology</b> in the transformation of companies’s
+              <b>Blockchain technology</b> in the transformation of companies's
               processes, code and infrastructure, new models of digital
               identity, and the development of governance models for data.
             </p>

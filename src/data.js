@@ -52,6 +52,12 @@ export const projects = [
     id: "1",
     description:
       "It is a Cryptocurrency Tracker App with React JS. App full responsive functionality. I use React Hooks as useState, useEffect and useContext. Besides, I included Firebase to add features like Google Authentication and Firestore with CRUD operations.",
+    details: [
+      "Deploy a React App with Firebase Hosting",
+      "Create Charts using Charts JS",
+      "Make a User Interface with Material UI",
+    ],
+    tech: ["react", "firebase", "javascript", "router", "material"],
   },
   {
     name: "rick",

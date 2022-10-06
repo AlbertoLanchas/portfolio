@@ -20,7 +20,8 @@
   padding: 1rem;
   width: 80vw;
   height: 80vh;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
+  cursor: auto;
 }
 
 .modal-close {
@@ -30,21 +31,22 @@
   border-radius: 50%;
   width: 2em;
   height: 2em;
+  cursor: pointer;
 }
 
-.container__modal {
+.container__text-modal {
   width: 80vw;
-  height: 70vh;
   display: flex;
 
   .video__modal {
     width: 40vw;
+    height: 55vh;
   }
 
   .modal__article {
     h3 {
       text-align: center;
-      margin-top: 38px;
+      margin-top: 18px;
     }
     hr {
       width: 80%;
@@ -59,6 +61,27 @@
       width: 80%;
       margin: 15px 25px;
       font-size: small;
+      text-decoration: none;
+    }
+    li {
+      text-align: justify;
+      width: 80%;
+      margin: 20px 45px;
+      font-size: small;
+      text-decoration: none;
     }
   }
+}
+
+.modal__tech {
+  width: 70px;
+  height: 70px;
+}
+
+.container__logo-modal {
+  padding: 20px 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  width: 50%;
 }

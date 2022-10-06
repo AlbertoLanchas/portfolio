@@ -39,7 +39,7 @@ const Work = () => {
         >
           <div className="app__work-img app__flex">
             <WorkModal isOpen={isOpenModal1} closeModal={closeModal1}>
-              <section className="container__modal">
+              <section className="container__text-modal">
                 <video
                   src={require(`../../assets/${projects[0].name}.mp4`)}
                   alt={projects[0].name}
@@ -51,7 +51,22 @@ const Work = () => {
                   <h3>{projects[0].text}</h3>
                   <hr />
                   <p>{projects[0].description}</p>
+                  <ul>
+                    {projects[0].details.map((detail) => (
+                      <li>{detail}</li>
+                    ))}
+                  </ul>
                 </article>
+              </section>
+              <section className="container__logo-modal">
+                {projects[0].tech.map((detail) => (
+                  <img
+                    key={detail}
+                    src={require(`../../assets/${detail}.png`)}
+                    alt={detail}
+                    className="modal__tech"
+                  />
+                ))}
               </section>
             </WorkModal>
             <img
