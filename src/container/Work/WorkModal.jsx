@@ -1,5 +1,5 @@
 import React from "react";
-import "./WorkModal.css";
+import "./WorkModal.scss";
 
 const WorkModal = ({ children, isOpen, closeModal }) => {
   const handleModalClick = (e) => e.stopPropagation();

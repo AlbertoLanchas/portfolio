@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { AppWrap, MotionWrap } from "../../wrapper";
 import { useModals } from "../../hooks/useModals";
 import WorkModal from "./WorkModal";
+import "./WorkModal.scss";
 import "./Work.scss";
 
 //IMPORTS POST COPIA
@@ -38,11 +39,25 @@ const Work = () => {
         >
           <div className="app__work-img app__flex">
             <WorkModal isOpen={isOpenModal1} closeModal={closeModal1}>
-              <h3>{projects[0].text}</h3>
+              <section className="container__modal">
+                <video
+                  src={require(`../../assets/${projects[0].name}.mp4`)}
+                  alt={projects[0].name}
+                  className="video__modal"
+                  loop
+                  autoPlay
+                />
+                <article className="modal__article">
+                  <h3>{projects[0].text}</h3>
+                  <hr />
+                  <p>{projects[0].description}</p>
+                </article>
+              </section>
             </WorkModal>
             <img
               src={require(`../../assets/${projects[0].name}.jpg`)}
               alt={projects[0].name}
+              className="photo__front"
             />
           </div>
           <div className="app__work-content app__flex">
@@ -94,6 +109,7 @@ const Work = () => {
             <img
               src={require(`../../assets/${projects[1].name}.jpg`)}
               alt={projects[1].name}
+              className="photo__front"
             />
           </div>
           <div className="app__work-content app__flex">

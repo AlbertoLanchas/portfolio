@@ -50,7 +50,8 @@ export const projects = [
     web: "https://crypto-graphics-98bcb.firebaseapp.com/",
     code: "https://github.com/AlbertoLanchas/cryptoGraphics",
     id: "1",
-    description: "",
+    description:
+      "It is a Cryptocurrency Tracker App with React JS. App full responsive functionality. I use React Hooks as useState, useEffect and useContext. Besides, I included Firebase to add features like Google Authentication and Firestore with CRUD operations.",
   },
   {
     name: "rick",
