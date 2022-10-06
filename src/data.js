@@ -3,7 +3,7 @@ export const tech = [
   { name: "css", text: "CSS", logo: "../assets/css.png", id: "2" },
   {
     name: "javascript",
-    text: "JS",
+    text: "JavaScript",
     logo: "../assets/javascript.png",
     id: "3",
   },
@@ -57,7 +57,7 @@ export const projects = [
       "Create Charts using Charts JS",
       "Make a User Interface with Material UI",
     ],
-    tech: ["react", "firebase", "javascript", "router", "material"],
+    logo: ["react", "firebase", "javascript", "router", "material"],
   },
   {
     name: "rick",
@@ -66,7 +66,14 @@ export const projects = [
     web: "https://rick-and-mortyl.web.app/",
     code: "https://github.com/AlbertoLanchas/RickMorty",
     id: "2",
-    description: "",
+    description:
+      "It's an API REST App base on the television show Rick & Morty. Includes React pagination to display the data, filters to clarify the characters, and React Router Dom to navigate into different specific details of each character.",
+    details: [
+      "Make beautiful components with Bootstrap.",
+      "Data fetching from API REST & Pagination.",
+      "Filter data from a real-time database.",
+    ],
+    logo: ["react", "bootstrap", "router"],
   },
   {
     name: "todo",

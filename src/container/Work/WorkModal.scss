@@ -32,6 +32,7 @@
   width: 2em;
   height: 2em;
   cursor: pointer;
+  border: none;
 }
 
 .container__text-modal {
@@ -74,14 +75,86 @@
 }
 
 .modal__tech {
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
 }
 
 .container__logo-modal {
-  padding: 20px 0;
   display: flex;
-  align-items: flex-end;
-  justify-content: space-evenly;
-  width: 50%;
+  article {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    width: 50%;
+  }
+  .container-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+  }
+}
+
+.app__icon-project {
+  text-decoration: none;
+  margin: 0 50px;
+  background-color: red;
+  color: white;
+}
+
+.app-icon {
+  text-decoration: none;
+  margin: 0px 30px;
+  display: flex;
+  height: 50px;
+  padding: 0;
+  background: #009578;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+
+  cursor: pointer;
+  &:hover {
+    background: #008168;
+  }
+  &:active {
+    background: #006e58;
+  }
+}
+
+.code {
+  background-color: rgb(39, 216, 244);
+  &:hover {
+    background: rgb(1, 181, 209);
+  }
+  &:active {
+    background: rgb(1, 181, 209);
+  }
+}
+.project {
+  background-color: rgb(30, 216, 110);
+  &:hover {
+    background: rgb(5, 195, 78);
+  }
+  &:active {
+    background: rgb(5, 195, 78);
+  }
+}
+
+.button__text,
+.button__icon {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 15px;
+  color: #fff;
+  height: 100%;
+}
+
+.button__icon {
+  font-size: 1.5em;
+  background: rgba(0, 0, 0, 0.08);
 }
