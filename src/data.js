@@ -57,7 +57,7 @@ export const projects = [
       "Create Charts using Charts JS",
       "Make a User Interface with Material UI",
     ],
-    logo: ["react", "firebase", "javascript", "router", "material"],
+    logo: ["react", "firebase", "chartjs", "router", "material"],
   },
   {
     name: "rick",
@@ -99,11 +99,11 @@ export const projects = [
     code: "https://github.com/AlbertoLanchas/tetris",
     id: "4",
     description:
-      "It's an API REST App base on the television show Rick & Morty. Includes React pagination to display the data, filters to clarify the characters, and React Router Dom to navigate into different specific details of each character.",
+      "This was an excellent way to learn the principles of React as well as how to arrange code. I utilized functional components, useState, useEffect, useCallback, memo, custom hooks, and keyboard input to create this app.",
     details: [
-      "Make beautiful components with Bootstrap.",
-      "Data fetching from API REST & Pagination.",
-      "Filter data from a real-time database.",
+      "Custom Hooks",
+      "Input with player drop with speed by level, pause and interval resets.",
+      "Improve User Interface and User Experience.",
     ],
     logo: ["react"],
   },
@@ -121,7 +121,7 @@ export const projects = [
       "Data fetching from API REST & Pagination.",
       "Filter data from a real-time database.",
     ],
-    logo: ["react", "redux", "firebase", "styled"],
+    logo: ["react", "redux", "vite", "firebase", "styled"],
   },
   {
     name: "javascript30",
