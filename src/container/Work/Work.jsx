@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { AiFillEye, AiFillGithub } from "react-icons/ai";
-import { FcSearch } from "react-icons/fc";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import { AppWrap, MotionWrap } from "../../wrapper";
 import { useModals } from "../../hooks/useModals";
 import WorkModal from "./WorkModal";
@@ -10,8 +8,9 @@ import "./Work.scss";
 
 //IMPORTS POST COPIA
 import { projects } from "../../data";
-import { objetives } from "../../data";
-import { BsSearch } from "react-icons/bs";
+import Github from "../../icons/Github";
+import Eye from "../../icons/Eye";
+import Search from "../../icons/Search";
 
 const Work = () => {
   const [activeFilter, setActiveFilter] = useState("All");
@@ -87,9 +86,9 @@ const Work = () => {
                         rel="noreferrer"
                         className="app-icon project"
                       >
-                        <span class="button__text">VIEW PROJECT</span>
-                        <span class="button__icon">
-                          <AiFillEye />
+                        <span className="button__text">VIEW PROJECT</span>
+                        <span className="button__icon">
+                          <Eye />
                         </span>
                       </a>
                     </>
@@ -104,9 +103,9 @@ const Work = () => {
                         rel="noreferrer"
                         className="app-icon code"
                       >
-                        <span class="button__text">VIEW CODE</span>
-                        <span class="button__icon">
-                          <AiFillGithub />
+                        <span className="button__text">VIEW CODE</span>
+                        <span className="button__icon">
+                          <Github />
                         </span>
                       </a>
                     </>
@@ -117,7 +116,7 @@ const Work = () => {
               </section>
             </WorkModal>
             <img
-              src={require(`../../assets/${projects[0].name}.jpg`)}
+              src={require(`../../assets/${projects[0].name}.webp`)}
               alt={projects[0].name}
               className="photo__front"
             />
@@ -126,7 +125,7 @@ const Work = () => {
             <h4 className="bold-text">{projects[0].text} </h4>
             <br />
             <div className="app__icon">
-              <FcSearch />
+              <Search />
             </div>
           </div>
         </motion.div>
@@ -182,9 +181,9 @@ const Work = () => {
                         rel="noreferrer"
                         className="app-icon project"
                       >
-                        <span class="button__text">VIEW PROJECT</span>
-                        <span class="button__icon">
-                          <AiFillEye />
+                        <span className="button__text">VIEW PROJECT</span>
+                        <span className="button__icon">
+                          <Eye />
                         </span>
                       </a>
                     </>
@@ -199,9 +198,9 @@ const Work = () => {
                         rel="noreferrer"
                         className="app-icon code"
                       >
-                        <span class="button__text">VIEW CODE</span>
-                        <span class="button__icon">
-                          <AiFillGithub />
+                        <span className="button__text">VIEW CODE</span>
+                        <span className="button__icon">
+                          <Github />
                         </span>
                       </a>
                     </>
@@ -212,7 +211,7 @@ const Work = () => {
               </section>
             </WorkModal>
             <img
-              src={require(`../../assets/${projects[1].name}.jpg`)}
+              src={require(`../../assets/${projects[1].name}.webp`)}
               alt={projects[1].name}
               className="photo__front"
             />
@@ -221,7 +220,7 @@ const Work = () => {
             <h4 className="bold-text">{projects[1].text} </h4>
             <br />
             <div className="app__icon">
-              <FcSearch />
+              <Search />
             </div>
           </div>
         </motion.div>
@@ -277,9 +276,9 @@ const Work = () => {
                         rel="noreferrer"
                         className="app-icon project"
                       >
-                        <span class="button__text">VIEW PROJECT</span>
-                        <span class="button__icon">
-                          <AiFillEye />
+                        <span className="button__text">VIEW PROJECT</span>
+                        <span className="button__icon">
+                          <Eye />
                         </span>
                       </a>
                     </>
@@ -294,9 +293,9 @@ const Work = () => {
                         rel="noreferrer"
                         className="app-icon code"
                       >
-                        <span class="button__text">VIEW CODE</span>
-                        <span class="button__icon">
-                          <AiFillGithub />
+                        <span className="button__text">VIEW CODE</span>
+                        <span className="button__icon">
+                          <Github />
                         </span>
                       </a>
                     </>
@@ -307,7 +306,7 @@ const Work = () => {
               </section>
             </WorkModal>
             <img
-              src={require(`../../assets/${projects[2].name}.jpg`)}
+              src={require(`../../assets/${projects[2].name}.webp`)}
               alt={projects[2].name}
               className="photo__front"
             />
@@ -316,7 +315,7 @@ const Work = () => {
             <h4 className="bold-text">{projects[2].text} </h4>
             <br />
             <div className="app__icon">
-              <FcSearch />
+              <Search />
             </div>
           </div>
         </motion.div>
@@ -372,9 +371,9 @@ const Work = () => {
                         rel="noreferrer"
                         className="app-icon project"
                       >
-                        <span class="button__text">VIEW PROJECT</span>
-                        <span class="button__icon">
-                          <AiFillEye />
+                        <span className="button__text">VIEW PROJECT</span>
+                        <span className="button__icon">
+                          <Eye />
                         </span>
                       </a>
                     </>
@@ -389,9 +388,9 @@ const Work = () => {
                         rel="noreferrer"
                         className="app-icon code"
                       >
-                        <span class="button__text">VIEW CODE</span>
-                        <span class="button__icon">
-                          <AiFillGithub />
+                        <span className="button__text">VIEW CODE</span>
+                        <span className="button__icon">
+                          <Github />
                         </span>
                       </a>
                     </>
@@ -402,7 +401,7 @@ const Work = () => {
               </section>
             </WorkModal>
             <img
-              src={require(`../../assets/${projects[3].name}.jpg`)}
+              src={require(`../../assets/${projects[3].name}.webp`)}
               alt={projects[3].name}
               className="photo__front"
             />
@@ -411,7 +410,7 @@ const Work = () => {
             <h4 className="bold-text">{projects[3].text} </h4>
             <br />
             <div className="app__icon">
-              <FcSearch />
+              <Search />
             </div>
           </div>
         </motion.div>
@@ -426,7 +425,7 @@ const Work = () => {
             <WorkModal isOpen={isOpenModal4} closeModal={closeModal4}>
               <section className="container__text-modal">
                 <img
-                  src={require(`../../assets/${projects[4].name}.jpg`)}
+                  src={require(`../../assets/${projects[4].name}.webp`)}
                   alt={projects[3].name}
                   className="video__modal"
                 />
@@ -465,9 +464,9 @@ const Work = () => {
                         rel="noreferrer"
                         className="app-icon project"
                       >
-                        <span class="button__text">VIEW PROJECT</span>
-                        <span class="button__icon">
-                          <AiFillEye />
+                        <span className="button__text">VIEW PROJECT</span>
+                        <span className="button__icon">
+                          <Eye />
                         </span>
                       </a>
                     </>
@@ -482,9 +481,9 @@ const Work = () => {
                         rel="noreferrer"
                         className="app-icon code"
                       >
-                        <span class="button__text">VIEW CODE</span>
-                        <span class="button__icon">
-                          <AiFillGithub />
+                        <span className="button__text">VIEW CODE</span>
+                        <span className="button__icon">
+                          <Github />
                         </span>
                       </a>
                     </>
@@ -495,7 +494,7 @@ const Work = () => {
               </section>
             </WorkModal>
             <img
-              src={require(`../../assets/${projects[4].name}.jpg`)}
+              src={require(`../../assets/${projects[4].name}.webp`)}
               alt={projects[4].name}
               className="photo__front"
             />
@@ -504,7 +503,7 @@ const Work = () => {
             <h4 className="bold-text">{projects[4].text} </h4>
             <br />
             <div className="app__icon">
-              <FcSearch />
+              <Search />
             </div>
           </div>
         </motion.div>

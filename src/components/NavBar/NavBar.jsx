@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { HiMenuAlt4, HiX } from "react-icons/hi";
-import { filterProps, motion } from "framer-motion";
-import { images } from "../../constants";
+import { motion } from "framer-motion";
 
 import "./NavBar.scss";
 
@@ -20,11 +19,8 @@ const NavBar = () => {
   }, []);
   return (
     <nav className={show ? "app__navbar" : "app__navbar active"}>
-      <div className="app__navbar-logo">
-        <img src={images.logo} alt="logo" />
-      </div>
       <ul className="app__navbar-links">
-        {["home", "skills", "work", "goals", "contact"].map((item) => (
+        {["home", "skills", "work"].map((item) => (
           <li className="app__flex li-text" key={`link-${item}`}>
             <div />
             <a href={`#${item}`}>{item}</a>
@@ -41,7 +37,7 @@ const NavBar = () => {
           >
             <HiX onClick={() => setToggle(false)} />
             <ul>
-              {["home", "skills", "work", "goals", "contact"].map((item) => (
+              {["home", "skills", "work"].map((item) => (
                 <li key={item}>
                   <a href={`#${item}`} onClick={() => setToggle(false)}>
                     {item}

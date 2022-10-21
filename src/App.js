@@ -1,8 +1,7 @@
 import React from "react";
-import { Footer, Header, Skills, Goals, Work, Slider } from "./container";
+import { Header, Skills, Work } from "./container";
 import { NavBar } from "./components";
-import "./App.scss";
-import { objetives } from "./data";
+import "./scss/App.scss";
 
 const App = () => {
   return (
@@ -11,8 +10,6 @@ const App = () => {
       <Header></Header>
       <Skills></Skills>
       <Work></Work>
-      <Goals></Goals>
-      <Footer></Footer>
     </div>
   );
 };
