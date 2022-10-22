@@ -11,20 +11,18 @@
   align-items: center;
 }
 
-.modal.is-open {
+.modal.isOpen {
   display: flex;
 }
 
-.modal-container {
+.Modal-container {
   position: relative;
   padding: 1rem;
-  width: 80vw;
-  height: 80vh;
   background-color: rgba(255, 255, 255, 1);
   cursor: auto;
 }
 
-.modal-close {
+.Modal-close {
   position: absolute;
   top: 1rem;
   right: 1rem;
@@ -35,16 +33,16 @@
   border: none;
 }
 
-.container__text-modal {
+.Modal-section {
   width: 80vw;
   display: flex;
 
-  .video__modal {
+  &--video {
     width: 40vw;
     height: 55vh;
   }
 
-  .modal__article {
+  &--article {
     h3 {
       text-align: center;
       margin-top: 18px;
@@ -74,20 +72,16 @@
   }
 }
 
-.modal__tech {
-  width: 50px;
-  height: 50px;
-}
-
-.container__logo-modal {
+.Modal-logos {
   display: flex;
+
   article {
     display: flex;
     align-items: flex-end;
     justify-content: space-evenly;
     width: 50%;
   }
-  .container-buttons {
+  .Modal-buttons {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -102,7 +96,7 @@
   color: white;
 }
 
-.app-icon {
+.Modal-button {
   text-decoration: none;
   margin: 0px 30px;
   display: flex;
@@ -145,8 +139,8 @@
   }
 }
 
-.button__text,
-.button__icon {
+.Modal-button--text,
+.Modal-button--icon {
   display: inline-flex;
   align-items: center;
   padding: 0 15px;
@@ -154,7 +148,28 @@
   height: 100%;
 }
 
-.button__icon {
+.Modal-button--icon {
   font-size: 1.5em;
   background: rgba(0, 0, 0, 0.08);
+}
+
+@media screen and (max-width: 900px) {
+  .Modal-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .Modal-section--video {
+    display: none;
+    opacity: 0;
+  }
+  .Modal-section li {
+    margin: 0;
+  }
+  .Modal-logos {
+    flex-direction: column;
+    justify-content: none;
+  }
+  // .Modal-logos article {
+  //   background-color: red;
+  // }
 }

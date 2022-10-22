@@ -3,20 +3,19 @@ import { motion } from "framer-motion";
 import ReactTooltip from "react-tooltip";
 import { tech } from "../../data";
 import { AppWrap, MotionWrap } from "../../wrapper";
-import "./Skills.scss";
-import images from "../../constants/images";
+import "../../scss/Skills.scss";
 
 const Skills = () => {
   return (
     <>
       <h2 className="head-text">Tech Stack </h2>
-      <div className="app__skills-container">
-        <motion.div className="app__skills-list">
+      <div className="Skills">
+        <motion.div className="Skills-list">
           {tech.map(({ name, logo, id, text }) => (
             <motion.div
               whileInView={{ opacity: [0, 1] }}
               transition={{ duration: 0.5 }}
-              className="app__skills-item app__flex"
+              className="Skills-item"
               key={id}
             >
               <div
@@ -29,15 +28,15 @@ const Skills = () => {
             </motion.div>
           ))}
         </motion.div>
-        <div className="app__skills-exp">
-          <div className="app__skills-exp">
-            <p className="text_skills">
+        <div className="Skills-exp">
+          <div className="Skills-exp">
+            <p className="Skills-text">
               I finished my degree in Food Science Technology, although I've
               founded my passion in software engineering, especially as a{" "}
               <b>Frontend Developer</b>. I am a highly motivated developer
               seeking to launch a carrer building web applications and services.
             </p>
-            <p className="text_skills">
+            <p className="Skills-text">
               One of my hobbies is based on exploring the possibilities of{" "}
               <b>Blockchain technology</b> in the transformation of companies's
               processes, code and infrastructure, new models of digital
