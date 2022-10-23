@@ -1,0 +1,165 @@
+.Modal {
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.55);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  &.isOpen {
+    display: flex;
+  }
+}
+
+.Modal-container {
+  position: relative;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 1);
+  cursor: auto;
+}
+
+.Modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  cursor: pointer;
+  border: none;
+}
+
+.Modal-section {
+  width: 80vw;
+  display: flex;
+
+  &--video {
+    width: 40vw;
+    height: 55vh;
+  }
+
+  &--article {
+    h3 {
+      text-align: center;
+      margin-top: 18px;
+    }
+    hr {
+      width: 80%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 2vw;
+      border: 0.5px solid black;
+    }
+    p {
+      text-align: justify;
+      width: 80%;
+      margin: 15px 25px;
+      font-size: small;
+      text-decoration: none;
+    }
+    li {
+      text-align: justify;
+      width: 80%;
+      margin: 20px 45px;
+      font-size: small;
+      text-decoration: none;
+    }
+  }
+}
+
+.Modal-logos {
+  display: flex;
+
+  article {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    width: 50%;
+  }
+  .Modal-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.Modal-button {
+  text-decoration: none;
+  margin: 0px 30px;
+  display: flex;
+  height: 50px;
+  padding: 0;
+  background: #009578;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+
+  cursor: pointer;
+  &:hover {
+    background: #008168;
+  }
+  &:active {
+    background: #006e58;
+  }
+}
+
+.Code {
+  background-color: rgb(39, 216, 244);
+  &:hover {
+    background: rgb(1, 181, 209);
+  }
+  &:active {
+    background: rgb(1, 181, 209);
+  }
+}
+.Project {
+  background-color: rgb(30, 216, 110);
+  &:hover {
+    background: rgb(5, 195, 78);
+  }
+  &:active {
+    background: rgb(5, 195, 78);
+  }
+}
+
+.Modal-button--text,
+.Modal-button--icon {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 15px;
+  color: #fff;
+  height: 100%;
+}
+
+.Modal-button--icon {
+  font-size: 1.5em;
+  background: rgba(0, 0, 0, 0.08);
+}
+
+@media screen and (max-width: 900px) {
+  .Modal-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .Modal-section--video {
+    display: none;
+    opacity: 0;
+  }
+  .Modal-logos {
+    flex-direction: column;
+    li {
+      margin: 0;
+    }
+    article {
+      justify-content: flex-start;
+    }
+  }
+}

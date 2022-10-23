@@ -125,19 +125,20 @@ export const projects = [
   },
   {
     name: "javascript30",
+    photo: "js30",
     text: "Javascript 30",
     tags: ["", "Javascript"],
     web: "",
     code: "https://github.com/AlbertoLanchas/JavaScript-30",
     id: "6",
     description:
-      "It's an API REST App base on the television show Rick & Morty. Includes React pagination to display the data, filters to clarify the characters, and React Router Dom to navigate into different specific details of each character.",
+      "Javascript 30 is 30 differents challenges with Vanilla Javascript where I could learn all the fundamentals of Javascript. ",
     details: [
-      "Make beautiful components with Bootstrap.",
-      "Data fetching from API REST & Pagination.",
-      "Filter data from a real-time database.",
+      "Working with the DOM without a library",
+      "Resolve differents situations problems",
+      "Fundamentals of the Browser API",
     ],
-    logo: ["react", "bootstrap", "router"],
+    logo: ["javascript"],
   },
 ];
 
