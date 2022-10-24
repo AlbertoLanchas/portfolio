@@ -58,6 +58,11 @@ const Header = () => (
         alt="profile_circle"
         className="Header-img--circle"
       />
+      <img
+        className="Header-img--alberto"
+        src={require("../../assets/alberto.webp")}
+        alt="Alberto Lanchas"
+      />
     </motion.div>
 
     <motion.div
