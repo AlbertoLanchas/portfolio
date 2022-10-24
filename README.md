@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+# PORTFOLIO - ALBERTO LANCHAS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![REACT](https://img.shields.io/static/v1?label=&message=REACT&color=00C0FF&logo=react&logoColor=white&style=for-the-badge)](https://reactjs.org/)
+[![SASS](https://img.shields.io/static/v1?label=&message=SASS&color=CC6699&logo=sass&logoColor=white&style=for-the-badge)](https://sass-lang.com/)
+[![FIREBASE](https://img.shields.io/static/v1?label=&message=FIREBASE&color=ff9e00&logo=firebase&logoColor=white&style=for-the-badge)](https://firebase.google.com/)
 
-## Available Scripts
 
-In the project directory, you can run:
+[![Live Site](https://img.shields.io/static/v1?label=&message=Live%20Site&color=0ABF53&style=for-the-badge)](https://alberto-lanchas.web.app/)
 
-### `npm start`
+# Index
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Setting Up](#setting-up)
+- [Overview](#overview)
+  - [Components](#components)
+- [My process](#my-process)
+  - [Built with](##built-with)
+  - [What I learned](##what-i-learned)
+  - [Challenges I haven't prevented](##what-i-learned)
+  - [Things that I woul like to implement](##what-i-learned)
+- [Author](#author)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p>&nbsp;</p>
 
-### `npm test`
+# Setting Up
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Want to download and see the project on your own computer?
 
-### `npm run build`
+First, you have to download the Project's Folder. After that, you have to:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| 1. Install node_modules inside the Project's Folder:                                                                | 2. Start the Server:                                                                                                 |
+| ------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| <img src="https://user-images.githubusercontent.com/34134103/171472950-aae1b019-16bc-4106-a875-8adb8794f60c.png" /> | <img src="https://user-images.githubusercontent.com/102739917/196405166-6f293821-c0dd-42b2-a5b0-8cd9dcb7c367.PNG" /> |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p>&nbsp;</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Overview
 
-### `npm run eject`
+## Components :
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### [The Home Page:] (https://alberto-lanchas.web.app/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![PORTFOLIO](https://user-images.githubusercontent.com/102739917/197583757-e576b2c2-fd67-4d2f-a072-9564073a2190.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### [Skills:](https://alberto-lanchas.web.app/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![SKILLS](https://user-images.githubusercontent.com/102739917/197585167-dbbe7a0b-df3a-46f1-9bd7-ef962555f1f0.png)
 
-## Learn More
+### [Works:](https://alberto-lanchas.web.app/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![WORKS](https://user-images.githubusercontent.com/102739917/197585173-94fa5d1c-c8f6-4f7a-b734-31831f522478.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### [Details:](https://alberto-lanchas.web.app/)
 
-### Code Splitting
+![DETAILS](https://user-images.githubusercontent.com/102739917/197585162-03aab9a9-9357-45d7-bb33-4095db55fcef.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<p>&nbsp;</p>
 
-### Making a Progressive Web App
+# My Process
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Built with :
 
-### Advanced Configuration
+- [React](https://reactjs.org/)
+  - Functional Components 
+  - Services
+- [Firebase](https://firebase.google.com/)
+  - Host
+- [SASS](https://sass-lang.com/)
+  - SCSS
+- [SUITCSS](https://suitcss.github.io/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<p>&nbsp;</p>
 
-### Deployment
+## What I learned :
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p>&nbsp;</p>
+
+
+
+
+
+
+## Challenges I haven't prevented :
+
+
+
+<p>&nbsp;</p>
+
+## Things that I woul like to implement :
+
+
+
+<p>&nbsp;</p>
+
+# Author
+
+- Website - [Alberto Lanchas](https://alberto-lanchas.web.app/)
+- Github - [Alberto Lanchas](https://github.com/AlbertoLanchas)
+- Linkedin - [Alberto Lanchas](https://www.linkedin.com/in/alberto-lanchas/)
+
+<p>&nbsp;</p>
