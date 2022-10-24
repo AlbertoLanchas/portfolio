@@ -1,11 +1,8 @@
-<<<<<<< HEAD
-=======
 # PORTFOLIO - ALBERTO LANCHAS
 
 [![REACT](https://img.shields.io/static/v1?label=&message=REACT&color=00C0FF&logo=react&logoColor=white&style=for-the-badge)](https://reactjs.org/)
 [![SASS](https://img.shields.io/static/v1?label=&message=SASS&color=CC6699&logo=sass&logoColor=white&style=for-the-badge)](https://sass-lang.com/)
 [![FIREBASE](https://img.shields.io/static/v1?label=&message=FIREBASE&color=ff9e00&logo=firebase&logoColor=white&style=for-the-badge)](https://firebase.google.com/)
-
 
 [![Live Site](https://img.shields.io/static/v1?label=&message=Live%20Site&color=0ABF53&style=for-the-badge)](https://alberto-lanchas.web.app/)
 
@@ -55,8 +52,6 @@ First, you have to download the Project's Folder. After that, you have to:
 
 ![DETAILS](https://user-images.githubusercontent.com/102739917/197585162-03aab9a9-9357-45d7-bb33-4095db55fcef.png)
 
-
-
 <p>&nbsp;</p>
 
 # My Process
@@ -64,7 +59,7 @@ First, you have to download the Project's Folder. After that, you have to:
 ## Built with :
 
 - [React](https://reactjs.org/)
-  - Functional Components 
+  - Functional Components
   - Services
 - [Firebase](https://firebase.google.com/)
   - Host
@@ -76,24 +71,13 @@ First, you have to download the Project's Folder. After that, you have to:
 
 ## What I learned :
 
-
-
 <p>&nbsp;</p>
 
-
-
-
-
-
 ## Challenges I haven't prevented :
-
-
 
 <p>&nbsp;</p>
 
 ## Things that I woul like to implement :
-
-
 
 <p>&nbsp;</p>
 
@@ -104,4 +88,3 @@ First, you have to download the Project's Folder. After that, you have to:
 - Linkedin - [Alberto Lanchas](https://www.linkedin.com/in/alberto-lanchas/)
 
 <p>&nbsp;</p>
->>>>>>> 0e65aa42e7645f36a290e32f40020bdc300f3c58
