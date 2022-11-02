@@ -14,10 +14,11 @@
 
   .Work-item {
     @include flexible(center, center);
-    width: 270px;
+    width: 100%;
     flex-direction: column;
     margin: 2rem;
     padding: 1rem;
+    max-width: 300px;
     border-radius: 0.5rem;
     background-color: rgba(255, 255, 255, 0.7);
     color: #000;
@@ -35,9 +36,10 @@
       border-radius: 0.75rem;
     }
 
-    @media screen and (max-width: 300px) {
+    @media screen and (max-width: 400px) {
       width: 100%;
       margin: 1rem;
+      min-width: 80vw;
     }
   }
 }

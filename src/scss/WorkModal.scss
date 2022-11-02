@@ -29,7 +29,7 @@
   width: 2em;
   height: 2em;
   cursor: pointer;
-  border: none;
+  border: solid 1px black;
 }
 
 .Modal-section {
@@ -55,14 +55,12 @@
       border: 0.5px solid black;
     }
     p {
-      text-align: justify;
       width: 80%;
       margin: 15px 25px;
       font-size: small;
       text-decoration: none;
     }
     li {
-      text-align: justify;
       width: 80%;
       margin: 20px 45px;
       font-size: small;

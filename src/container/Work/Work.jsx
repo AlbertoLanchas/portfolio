@@ -30,7 +30,10 @@ const Work = () => {
   }, []);
   return (
     <>
-      <h2 className="head-text"> Portfolio Section</h2>
+      <h2 className="head-text" style={{ color: "white" }}>
+        {" "}
+        Portfolio Section
+      </h2>
       <div className="Work">
         <motion.div
           className="Work-item"
@@ -49,6 +52,7 @@ const Work = () => {
                   loading="lazy"
                   loop
                   autoPlay
+                  muted
                 />
                 <article className="Modal-section--article">
                   <h3>{projects[0].text}</h3>
@@ -141,6 +145,7 @@ const Work = () => {
                   loading="lazy"
                   loop
                   autoPlay
+                  muted
                 />
                 <article className="Modal-section--article">
                   <h3>{projects[1].text}</h3>
@@ -233,6 +238,7 @@ const Work = () => {
                   loading="lazy"
                   loop
                   autoPlay
+                  muted
                 />
                 <article className="Modal-section--article">
                   <h3>{projects[2].text}</h3>
@@ -325,6 +331,7 @@ const Work = () => {
                   loading="lazy"
                   loop
                   autoPlay
+                  muted
                 />
                 <article className="Modal-section--article">
                   <h3>{projects[3].text}</h3>

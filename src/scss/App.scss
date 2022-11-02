@@ -98,7 +98,6 @@
   justify-content: flex-end;
   align-items: center;
   flex-direction: column;
-
   padding: 7rem 1rem;
 
   div {
@@ -107,6 +106,7 @@
     border-radius: 50%;
     background: transparent;
     margin: 0.25rem 0;
+    color: transparent;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -116,7 +116,8 @@
     svg {
       width: 25px;
       height: 25px;
-      color: var(--black-color);
+      background-color: transparent;
+      color: rgb(255, 255, 255);
     }
 
     &:hover {
@@ -131,41 +132,12 @@
     @media screen and (min-width: 2000px) {
       width: 70px;
       height: 70px;
-
       margin: 0.5rem 0;
 
       svg {
         width: 30px;
         height: 30px;
       }
-    }
-  }
-}
-
-.app__navigation {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-
-  padding: 1rem;
-
-  .app__navigation-dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: #cbcbcb;
-    margin: 0.5rem;
-
-    transition: background-color 0.2s ease-in-out;
-
-    &:hover {
-      background-color: #000;
-    }
-
-    @media screen and (min-width: 2000px) {
-      width: 20px;
-      height: 20px;
     }
   }
 }
