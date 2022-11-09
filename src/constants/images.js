@@ -11,7 +11,7 @@ import sass from "../assets/sass.png";
 import typescript from "../assets/typescript.png";
 import profile from "../assets/profile.png";
 import circle from "../assets/circle.svg";
-import cv from "../assets/CV_Alberto__Lanchas.pdf";
+import cv from "../assets/Alberto-Lanchas--CV.pdf";
 import sql from "../assets/sql.png";
 import alberto from "../assets/alberto1.png";
 
