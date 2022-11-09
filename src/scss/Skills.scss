@@ -81,13 +81,15 @@
   align-items: flex-start;
   flex-direction: column;
   margin: 20px;
-
-  @media screen and (max-width: 900px) {
-    margin-top: 2rem;
-  }
 }
 
 .Skills-text {
   padding: 10px;
   color: var(--black-color);
+}
+
+@media screen and (max-width: 600px) {
+  .Skills-item {
+    margin: 0;
+  }
 }

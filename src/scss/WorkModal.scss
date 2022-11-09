@@ -161,3 +161,32 @@
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+  .Modal-container {
+    width: 100%;
+    padding: 1rem 0;
+    text-align: justify;
+  }
+
+  .Modal-section {
+    width: 100%;
+    &--article p {
+      width: 90%;
+      margin: 15px 15px 0;
+    }
+
+    &--article li {
+      margin: 10px 25px;
+    }
+  }
+
+  .Modal-logos {
+    align-items: center;
+    article {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
