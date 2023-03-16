@@ -32,7 +32,7 @@ const Header = () => (
         </div>
 
         <div className="Header-tag">
-          <p className="Header-tag--text p-text">Frontend Developer</p>
+          <p className="Header-tag--text p-text">Full Stack Developer</p>
         </div>
       </div>
 
@@ -70,7 +70,7 @@ const Header = () => (
       whileInView={scaleVariants.whileInView}
       className="Header-circles"
     >
-      {[images.javascript, images.react, images.sass].map((circle, index) => (
+      {[images.typescript, images.react, images.node].map((circle, index) => (
         <motion.div
           className="Header-img--item"
           transition={{ duration: 1.5 }}

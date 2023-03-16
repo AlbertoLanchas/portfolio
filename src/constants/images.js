@@ -14,6 +14,7 @@ import circle from "../assets/circle.svg";
 import cv from "../assets/Alberto-Lanchas--CV.pdf";
 import sql from "../assets/sql.png";
 import alberto from "../assets/alberto1.png";
+import node from "../assets/node.png";
 
 export default {
   cpp,
@@ -32,4 +33,5 @@ export default {
   cv,
   sql,
   alberto,
+  node,
 };

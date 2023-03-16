@@ -13,16 +13,28 @@ const Skills = () => {
         <div className="Skills-exp">
           <div className="Skills-exp">
             <p className="Skills-text">
-              I finished my degree in Food Science Technology, although I've
-              founded my passion in software engineering, especially as a{" "}
-              <b>Frontend Developer</b>. I am a highly motivated developer
-              seeking to launch a carrer building web applications and services.
+              I'm a <b>Full Stack</b> developer with a strong interest in{"  "}
+              <b>blockchain technology</b> and its potential for transforming
+              businesses and industries. My background in{"  "}
+              <b>Food Science and Technology</b>, combined with my experience in
+              software development, gives me a unique perspective on how these
+              two fields can intersect and create innovative solutions.
             </p>
             <p className="Skills-text">
-              One of my hobbies is based on exploring the possibilities of{" "}
-              <b>Blockchain technology</b> in the transformation of companies's
-              processes, code and infrastructure, new models of digital
-              identity, and the development of governance models for data.
+              As a self-taught programmer with over <b>2 years of experience</b>
+              , I have completed several freelance projects that showcase my
+              skills in Frontend development, as well as my growing expertise in
+              Full Stack development. I am a highly motivated individual who is
+              always looking to learn and expand my skill set, and I'm excited
+              to bring my enthusiasm and expertise to any team I join.
+            </p>
+            <p className="Skills-text">
+              I'm excited to connect with like-minded professionals and
+              contribute to the continued growth and innovation of the crypto
+              space. Whether you're looking for a Full Stack developer, a
+              blockchain enthusiast, or a food science expert, I'm confident
+              that I can offer a valuable perspective and make a positive impact
+              on your team.
             </p>
           </div>
         </div>

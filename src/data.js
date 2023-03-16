@@ -10,15 +10,15 @@ export const tech = [
   { name: "react", text: "React JS", logo: "../assets/react.png", id: "4" },
   { name: "sass", text: "SASS", logo: "../assets/sass.png", id: "5" },
   {
-    name: "bootstrap",
-    text: "Bootstrap",
-    logo: "../assets/bootstrap.svg",
+    name: "vite",
+    text: "Vite",
+    logo: "../assets/vite.png",
     id: "6",
   },
   {
-    name: "firebase",
-    text: "Firebase",
-    logo: "../assets/firebase.png",
+    name: "typescript",
+    text: "Typescript",
+    logo: "../assets/typescript.png",
     id: "7",
   },
   { name: "git", text: "GIT", logo: "../assets/git.png", id: "8" },
@@ -35,10 +35,22 @@ export const tech = [
     id: "10",
   },
   {
-    name: "styled",
-    text: "Styled Components",
-    logo: "../assets/styled.png",
+    name: "solidity",
+    text: "Solidity",
+    logo: "../assets/solidity.png",
     id: "11",
+  },
+  {
+    name: "node",
+    text: "Node",
+    logo: "../assets/node.png",
+    id: "12",
+  },
+  {
+    name: "tailwind",
+    text: "Tailwind",
+    logo: "../assets/tailwind.png",
+    id: "13",
   },
 ];
 
@@ -150,7 +162,7 @@ export const objetives = [
     description:
       '"Node.js is a lean, fast, cross-platform JavaScript runtime environment that is useful for both servers and desktop applications."',
     details:
-      "In addition to my experience as a frontend developer, I believe that Node JS will provide me with a thorough understanding of how an entire development team operates.",
+      "In addition to my experience as a fullstack developer, I believe that Node JS will provide me with a thorough understanding of how an entire development team operates.",
     id: "0",
   },
   {
