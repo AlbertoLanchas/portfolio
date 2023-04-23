@@ -32,7 +32,7 @@ const Header = () => (
         </div>
 
         <div className="Header-tag">
-          <p className="Header-tag--text p-text">Full Stack Developer</p>
+          <p className="Header-tag--text p-text">Frontend Stack Developer</p>
         </div>
       </div>
 

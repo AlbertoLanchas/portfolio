@@ -56,12 +56,29 @@ export const tech = [
 
 export const projects = [
   {
+    name: "gauntlet",
+    text: "Gauntlet",
+    tags: ["", "React JS"],
+    web: "https://https://gauclient.com/",
+    code: "https://github.com/GauntletProject",
+    id: "1",
+    description:
+      "Gauntlet is a gaming and learning client that combines multiple services into one easy-to-use client. Users can access a game library, participate in e-sports events, stream their gameplay, complete micro-gaming lessons to earn GAU rewards, and more. GAU is a cryptocurrency that can be earned by using the client's services and exchanged for other crypto tokens. The long-term goal of Gauntlet is to become the number one gaming token used by GameFi projects inside and outside of the Binance ecosystem. Gauntlet aims to make GAU a central payment token within the gaming space.",
+    details: [
+      "Create scalable and high-performance web applications on NextJS",
+      "Improve code scalability and maintainability with Typescript",
+      "Store data in a flexible and scalable way using MongoDB",
+    ],
+
+    logo: ["nextjs", "typescript", "solidity", "material"],
+  },
+  {
     name: "chart",
     text: "Charts",
     tags: ["", "React JS"],
     web: "https://crypto-graphics-98bcb.firebaseapp.com/",
     code: "https://github.com/AlbertoLanchas/cryptoGraphics",
-    id: "1",
+    id: "2",
     description:
       "It is a Cryptocurrency Tracker App with React JS. App full responsive functionality. I use React Hooks as useState, useEffect and useContext. Besides, I included Firebase to add features like Google Authentication and Firestore with CRUD operations.",
     details: [
@@ -72,12 +89,28 @@ export const projects = [
     logo: ["react", "firebase", "chartjs", "router", "material"],
   },
   {
+    name: "menufacil",
+    text: "Menú Fácil",
+    tags: ["", "React JS"],
+    web: "https://menufacil-308dd.web.app/",
+    code: "https://github.com/AlbertoLanchas/menufacil",
+    id: "3",
+    description:
+      "This project is a web application that allows the creation of a restaurant menu with different dishes. The dishes are stored in a database using Firebase, which can be easily managed by the admin user. The admin user can add, edit or delete dishes from the database, and also categorize them by type, such as appetizers, entrees or desserts. The dishes are displayed on the menu page with their name, description, price and an image. The user can select the dishes they want to order and add them to their cart. Once the order is placed, it is stored in the database and can be viewed by the admin user. This project is aimed at small and medium-sized restaurants that want to have an online presence and offer their customers an easy way to order food from their menu.",
+    details: [
+      "Store and manage data in real-time using Firebase's Cloud Firestore database",
+      "Create responsive and modern user interfaces using React and Tailwind CSS",
+      "Implement secure user authentication and authorization with Firebase Authentication",
+    ],
+    logo: ["react", "tailwind", "firebase"],
+  },
+  {
     name: "rick",
-    text: "Rick & Morty API",
+    text: "Rick & Morty",
     tags: ["", "React JS"],
     web: "https://rick-and-mortyl.web.app/",
     code: "https://github.com/AlbertoLanchas/RickMorty",
-    id: "2",
+    id: "4",
     description:
       "It's an API REST App base on the television show Rick & Morty. Includes React pagination to display the data, filters to clarify the characters, and React Router Dom to navigate into different specific details of each character.",
     details: [
@@ -88,28 +121,12 @@ export const projects = [
     logo: ["react", "bootstrap", "router"],
   },
   {
-    name: "todo",
-    text: "To Do  List",
-    tags: ["", "React JS"],
-    web: "https://to-do-list-alberto.web.app/",
-    code: "https://github.com/AlbertoLanchas/to_do_list",
-    id: "3",
-    description:
-      "Learned Typescript from scratch and used it with React hooks such as useState, useRef and useReducer. Understood PropTypes, DefaultProps building a todo list app project. ",
-    details: [
-      "Setup React Typescript Project.",
-      "Generics interfaces and functions in Typescript.",
-      "Functional Component type.",
-    ],
-    logo: ["react", "typescript"],
-  },
-  {
     name: "tetris",
     text: "Tetris Game",
     tags: ["", "React JS"],
     web: "https://tetris-clon.web.app/",
     code: "https://github.com/AlbertoLanchas/tetris",
-    id: "4",
+    id: "5",
     description:
       "This was an excellent way to learn the principles of React as well as how to arrange code. I utilized functional components, useState, useEffect, useCallback, memo, custom hooks, and keyboard input to create this app.",
     details: [
@@ -120,21 +137,22 @@ export const projects = [
     logo: ["react"],
   },
   {
-    name: "disney+",
-    text: "Disney+ Clone",
+    name: "todo",
+    text: "To Do  List",
     tags: ["", "React JS"],
-    web: "",
-    code: "https://github.com/AlbertoLanchas/disney-clone",
-    id: "5",
+    web: "https://to-do-list-alberto.web.app/",
+    code: "https://github.com/AlbertoLanchas/to_do_list",
+    id: "6",
     description:
-      "It's a Disney+ Clone App created with React JS and has Google Authentication to provide protected routes. The data is from Cloud Storage using Firebase to store and serve user-generated content, such as photos or videos.",
+      "Learned Typescript from scratch and used it with React hooks such as useState, useRef and useReducer. Understood PropTypes, DefaultProps building a todo list app project. ",
     details: [
-      "Handle authentication with Firebase.",
-      "Data fetching from API REST & Pagination.",
-      "Filter data from a real-time database.",
+      "Setup React Typescript Project.",
+      "Generics interfaces and functions in Typescript.",
+      "Functional Component type.",
     ],
-    logo: ["react", "redux", "vite", "firebase", "styled"],
+    logo: ["react", "typescript"],
   },
+
   {
     name: "javascript30",
     photo: "js30",
@@ -142,7 +160,7 @@ export const projects = [
     tags: ["", "Javascript"],
     web: "",
     code: "https://github.com/AlbertoLanchas/JavaScript-30",
-    id: "6",
+    id: "7",
     description:
       "Javascript 30 is 30 differents challenges with Vanilla Javascript where I could learn all the fundamentals of Javascript. ",
     details: [

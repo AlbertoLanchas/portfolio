@@ -23,6 +23,8 @@ const Work = () => {
   const [isOpenModal3, openModal3, closeModal3] = useModals(false);
   const [isOpenModal4, openModal4, closeModal4] = useModals(false);
   const [isOpenModal5, openModal5, closeModal5] = useModals(false);
+  const [isOpenModal6, openModal6, closeModal6] = useModals(false);
+  const [isOpenModal7, openModal7, closeModal7] = useModals(false);
 
   useEffect(() => {
     setWorks(projects);
@@ -496,7 +498,7 @@ const Work = () => {
             <Search />
           </div>
         </motion.div>
-        <motion.div
+        {/* <motion.div
           className="Work-item"
           key={projects[5].id}
           animate={animateCard}
@@ -507,7 +509,7 @@ const Work = () => {
             <WorkModal isOpen={isOpenModal5} closeModal={closeModal5}>
               <section className="Modal-section">
                 <img
-                  src={require(`../../assets/${projects[5].photo}.webp`)}
+                  src={require(`../../assets/${projects[4].photo}.webp`)}
                   alt={projects[5].name}
                   className="Modal-section--video"
                 />
@@ -575,7 +577,7 @@ const Work = () => {
               </section>
             </WorkModal>
             <img
-              src={require(`../../assets/${projects[5].name}.webp`)}
+              src={require(`../../assets/${projects[4].name}.webp`)}
               alt={projects[5].name}
               className="Work-img--front"
             />
@@ -584,7 +586,193 @@ const Work = () => {
             <h4 className="bold-text">{projects[5].text} </h4>
             <Search />
           </div>
-        </motion.div>
+        </motion.div> */}
+        {/* <motion.div
+          className="Work-item"
+          key={projects[6].id}
+          animate={animateCard}
+          transition={{ duration: 0.5, delayChildren: 0.5 }}
+          onClick={openModal0}
+        >
+          <div className="Work-img">
+            <WorkModal isOpen={isOpenModal0} closeModal={closeModal0}>
+              <section className="Modal-section">
+                <video
+                  src={require(`../../assets/${projects[0].name}.mp4`)}
+                  alt={projects[6].name}
+                  className="Modal-section--video"
+                  loading="lazy"
+                  loop
+                  autoPlay
+                  muted
+                />
+                <article className="Modal-section--article">
+                  <h3>{projects[6].text}</h3>
+                  <hr />
+                  <p>{projects[6].description}</p>
+                  <ul>
+                    {projects[6].details.map((detail) => (
+                      <li>{detail}</li>
+                    ))}
+                  </ul>
+                </article>
+              </section>
+              <section className="Modal-logos">
+                <article>
+                  {projects[6].logo.map((detail) => (
+                    <div className="Skills-item" key={detail}>
+                      <div className="app__flex">
+                        <img
+                          src={require(`../../assets/${detail}.png`)}
+                          alt={detail}
+                        />
+                      </div>
+                      <p className="p-text">{detail}</p>
+                    </div>
+                  ))}
+                </article>
+                <div className="Modal-buttons">
+                  {projects[6].web !== "" ? (
+                    <>
+                      <a
+                        href={projects[6].web}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="Modal-button Project"
+                      >
+                        <span className="Modal-button--text">VIEW PROJECT</span>
+                        <span className="Modal-button--icon">
+                          <Eye />
+                        </span>
+                      </a>
+                    </>
+                  ) : (
+                    <></>
+                  )}
+                  {projects[6].code !== "" ? (
+                    <>
+                      <a
+                        href={projects[6].code}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="Modal-button Code"
+                      >
+                        <span className="Modal-button--text">VIEW CODE</span>
+                        <span className="Modal-button--icon">
+                          <Github />
+                        </span>
+                      </a>
+                    </>
+                  ) : (
+                    <></>
+                  )}
+                </div>
+              </section>
+            </WorkModal>
+            <img
+              src={require(`../../assets/${projects[6].name}.webp`)}
+              alt={projects[0].name}
+              className="Work-img--front"
+            />
+          </div>
+          <div className="Work-content">
+            <h4 className="bold-text">{projects[6].text} </h4>
+            <Search />
+          </div>
+        </motion.div> */}
+        {/* <motion.div
+          className="Work-item"
+          key={projects[7].id}
+          animate={animateCard}
+          transition={{ duration: 0.5, delayChildren: 0.5 }}
+          onClick={openModal0}
+        >
+          <div className="Work-img">
+            <WorkModal isOpen={isOpenModal0} closeModal={closeModal0}>
+              <section className="Modal-section">
+                <video
+                  src={require(`../../assets/${projects[7].name}.mp4`)}
+                  alt={projects[7].name}
+                  className="Modal-section--video"
+                  loading="lazy"
+                  loop
+                  autoPlay
+                  muted
+                />
+                <article className="Modal-section--article">
+                  <h3>{projects[7].text}</h3>
+                  <hr />
+                  <p>{projects[7].description}</p>
+                  <ul>
+                    {projects[7].details.map((detail) => (
+                      <li>{detail}</li>
+                    ))}
+                  </ul>
+                </article>
+              </section>
+              <section className="Modal-logos">
+                <article>
+                  {projects[7].logo.map((detail) => (
+                    <div className="Skills-item" key={detail}>
+                      <div className="app__flex">
+                        <img
+                          src={require(`../../assets/${detail}.png`)}
+                          alt={detail}
+                        />
+                      </div>
+                      <p className="p-text">{detail}</p>
+                    </div>
+                  ))}
+                </article>
+                <div className="Modal-buttons">
+                  {projects[7].web !== "" ? (
+                    <>
+                      <a
+                        href={projects[7].web}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="Modal-button Project"
+                      >
+                        <span className="Modal-button--text">VIEW PROJECT</span>
+                        <span className="Modal-button--icon">
+                          <Eye />
+                        </span>
+                      </a>
+                    </>
+                  ) : (
+                    <></>
+                  )}
+                  {projects[7].code !== "" ? (
+                    <>
+                      <a
+                        href={projects[7].code}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="Modal-button Code"
+                      >
+                        <span className="Modal-button--text">VIEW CODE</span>
+                        <span className="Modal-button--icon">
+                          <Github />
+                        </span>
+                      </a>
+                    </>
+                  ) : (
+                    <></>
+                  )}
+                </div>
+              </section>
+            </WorkModal>
+            <img
+              src={require(`../../assets/${projects[7].name}.webp`)}
+              alt={projects[7].name}
+              className="Work-img--front"
+            />
+          </div>
+          <div className="Work-content">
+            <h4 className="bold-text">{projects[7].text} </h4>
+            <Search />
+          </div>
+        </motion.div> */}
       </div>
     </>
   );

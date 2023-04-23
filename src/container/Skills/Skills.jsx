@@ -31,10 +31,9 @@ const Skills = () => {
             <p className="Skills-text">
               I'm excited to connect with like-minded professionals and
               contribute to the continued growth and innovation of the crypto
-              space. Whether you're looking for a Full Stack developer, a
-              blockchain enthusiast, or a food science expert, I'm confident
-              that I can offer a valuable perspective and make a positive impact
-              on your team.
+              space. Whether you're looking for a Frontend developer, a
+              blockchain enthusiast, I'm confident that I can offer a valuable
+              perspective and make a positive impact on your team.
             </p>
           </div>
         </div>
