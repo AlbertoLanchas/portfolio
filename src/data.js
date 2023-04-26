@@ -59,11 +59,11 @@ export const projects = [
     name: "gauntlet",
     text: "Gauntlet",
     tags: ["", "React JS"],
-    web: "https://https://gauclient.com/",
+    web: "https://gauclient.com/",
     code: "https://github.com/GauntletProject",
     id: "1",
     description:
-      "Gauntlet is a gaming and learning client that combines multiple services into one easy-to-use client. Users can access a game library, participate in e-sports events, stream their gameplay, complete micro-gaming lessons to earn GAU rewards, and more. GAU is a cryptocurrency that can be earned by using the client's services and exchanged for other crypto tokens. The long-term goal of Gauntlet is to become the number one gaming token used by GameFi projects inside and outside of the Binance ecosystem. Gauntlet aims to make GAU a central payment token within the gaming space.",
+      "Gauntlet is a client that combines multiple gaming services into one easy-to-use app, including a game library, e-sports events, micro-gaming lessons to earn GAU rewards, and more. GAU is a cryptocurrency that can be earned and exchanged for other cryptos by using the app's services. Gauntlet aims to become the top gaming token for GameFi projects both inside and outside of the Binance ecosystem, with GAU as the central payment token in the gaming space.",
     details: [
       "Create scalable and high-performance web applications on NextJS",
       "Improve code scalability and maintainability with Typescript",

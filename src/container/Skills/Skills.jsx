@@ -13,7 +13,7 @@ const Skills = () => {
         <div className="Skills-exp">
           <div className="Skills-exp">
             <p className="Skills-text">
-              I'm a <b>Full Stack</b> developer with a strong interest in{"  "}
+              I'm a <b>Frontend</b> developer with a strong interest in{"  "}
               <b>blockchain technology</b> and its potential for transforming
               businesses and industries. My background in{"  "}
               <b>Food Science and Technology</b>, combined with my experience in
