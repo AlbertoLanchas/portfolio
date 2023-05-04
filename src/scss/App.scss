@@ -18,6 +18,10 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  @media screen and (max-width: 450px) {
+    background-image: url("../assets/clouds.png");
+    background-size: fill;
+  }
 }
 
 .app__container {
@@ -97,6 +101,12 @@
   flex-direction: column;
   padding: 7rem 1rem;
 
+  @media screen and (max-width: 450px) {
+    flex-direction: row;
+    justify-content: center;
+    padding: 2rem;
+  }
+
   div {
     width: 80px;
     height: 80px;
@@ -127,6 +137,16 @@
     }
 
     @media screen and (min-width: 2000px) {
+      width: 70px;
+      height: 70px;
+      margin: 0.5rem 0;
+
+      svg {
+        width: 30px;
+        height: 30px;
+      }
+    }
+    @media screen and (max-width: 450) {
       width: 70px;
       height: 70px;
       margin: 0.5rem 0;
